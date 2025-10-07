@@ -1017,7 +1017,7 @@ section {
   }
   
   .skills-grid {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   }
   
   .hero-actions {
@@ -1189,6 +1189,9 @@ section {
   }
 }
 
+.skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(132px, 1fr));
+  }
 /* Print Styles */
 @media print {
   .navigation-dots,
